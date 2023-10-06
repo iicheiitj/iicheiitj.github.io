@@ -1,0 +1,67 @@
+
+
+.slider-container1 {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.slider1 {
+    
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide1 {
+    flex: 0 0 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.slider-container1 .slide1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.left-arrow:hover, .right-arrow:hover {
+    background-color: #555;
+    color: white
+}
+
+.right-arrow,
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px; /* Adjust the size as needed */
+  fill: #333; /* Arrow color */
+  cursor: pointer;
+  z-index: 1;
+  background-color: white;
+  transition: background-color 0.3s ease;
+  padding: 10px 10px;
+  opacity: 0.5;
+}
+
+.left-arrow {
+  left: 10px; /* Adjust the left position */
+}
+
+.right-arrow {
+  right: 10px; /* Adjust the right position */
+}
+
+/*Entire home page*/
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: rgb(153 246 228);
+
+}
+
+::selection {
+  color: black;
+  background: rgb(153 246 228);
+
+}
+

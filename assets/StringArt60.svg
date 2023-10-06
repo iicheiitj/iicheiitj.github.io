@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xml:space="preserve"
+    viewBox="0 0 500 500"
+  >
+  <desc
+    >
+    String Art Symbol 60 Degrees
+    Image that did not make my eBook, STEAM Coded String Art
+    Step-by-step instructions on creating string art symbols in my eBook, STEAM Coded String Art
+    Image can be inserted into an SVG image then scaled and positioned where desired.
+    STEAM Coded String Art is written and illustrated by Jay Nick.
+    and available as an eBook from the Apple iBookstore
+    http://www.steamcoded.com
+    Image written by Jay Nick
+    Handcoding SVG since 2001
+    http://www.jaynick.com
+    Author of Free eBooks using SVG, published by Catto Creations, LLC
+    STEAM Coded String Art is published by Catto Creations, LLC
+    Catto Creations mission is Family, Literacy, and Enrichment
+    Visit http://www.cattocreations.com for award winning children's eBooks
+    Free ePub3 eBooks at http://www.cattocreations.com/ePub3.html
+  </desc
+  >
+  <defs
+    >
+    <style
+        type="text/css"
+      >
+      .c1 {stroke:teal;fill:none;stroke-width:0.8px;}
+    </style
+    >
+    <symbol
+        id="pat60"
+        viewBox="0 0 200 200"
+      >
+      <path
+          d="m0 173.2l100-173.2 100 173.2"
+      />
+      <path
+          d="m5 164.54l100-155.88"
+      />
+      <path
+          d="m10 155.88l100-138.56"
+      />
+      <path
+          d="m15 147.22l100-121.24"
+      />
+      <path
+          d="m20 138.56l100-103.92"
+      />
+      <path
+          d="m25 129.9l100-86.6"
+      />
+      <path
+          d="m30 121.24l100-69.28"
+      />
+      <path
+          d="m35 112.58l100-51.96"
+      />
+      <path
+          d="m40 103.92l100-34.64"
+      />
+      <path
+          d="m45 95.26l100-17.32"
+      />
+      <path
+          d="m50 86.6h100"
+      />
+      <path
+          d="m55 77.94l100 17.32"
+      />
+      <path
+          d="m60 69.28l100 34.64"
+      />
+      <path
+          d="m65 60.62l100 51.96"
+      />
+      <path
+          d="m70 51.96l100 69.28"
+      />
+      <path
+          d="m75 43.3l100 86.6"
+      />
+      <path
+          d="m80 34.64l100 103.92"
+      />
+      <path
+          d="m85 25.98l100 121.24"
+      />
+      <path
+          d="m90 17.32l100 138.56"
+      />
+      <path
+          d="m95 8.66l100 155.88"
+      />
+    </symbol
+    >
+  </defs
+  >
+  <rect
+      y="-100%"
+      x="-100%"
+      style="display:none;fill:black"
+      height="300%"
+      width="300%"
+  />
+  <g
+      transform="translate(0) scale(1)"
+    >
+    <g
+        class="c1"
+      >
+    <g
+          id="i1"
+        >
+      <g
+            transform="translate(125,250)"
+            class="c3"
+          >
+        <use
+              width="250"
+              xlink:href="#pat60"
+              height="250"
+          />
+      </g
+        >
+      <g
+            transform="rotate(60,250,250) translate(125,250)"
+          >
+        <use
+              width="250"
+              xlink:href="#pat60"
+              height="250"
+          />
+      </g
+        >
+      <g
+            transform="rotate(120,250,250) translate(125,250)"
+          >
+        <use
+              width="250"
+              xlink:href="#pat60"
+              height="250"
+          />
+      </g
+        >
+      <g
+            transform="rotate(180,250,250) translate(125,250)"
+          >
+        <use
+              width="250"
+              xlink:href="#pat60"
+              height="250"
+          />
+      </g
+        >
+      <g
+            transform="rotate(240,250,250) translate(125,250)"
+          >
+        <use
+              width="250"
+              xlink:href="#pat60"
+              height="250"
+          />
+      </g
+        >
+      <g
+            transform="rotate(300,250,250) translate(125,250)"
+          >
+        <use
+              width="250"
+              xlink:href="#pat60"
+              height="250"
+          />
+      </g
+        >
+    </g
+      >
+    </g
+    >
+    <use
+        width="250"
+        xlink:href="#i1"
+        class="c1"
+        transform="rotate(15,250,250)"
+        height="250"
+    />
+    <use
+        width="250"
+        xlink:href="#i1"
+        class="c1"
+        transform="rotate(30,250,250)"
+        height="250"
+    />
+    <use
+        width="250"
+        xlink:href="#i1"
+        class="c1"
+        transform="rotate(45,250,250)"
+        height="250"
+    />
+  </g
+  >
+<metadata
+    ><rdf:RDF
+      ><cc:Work
+        ><dc:format
+          >image/svg+xml</dc:format
+        ><dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        /><cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        /><dc:publisher
+          ><cc:Agent
+              rdf:about="http://openclipart.org/"
+            ><dc:title
+              >Openclipart</dc:title
+            ></cc:Agent
+          ></dc:publisher
+        ></cc:Work
+      ><cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        ><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        /></cc:License
+      ></rdf:RDF
+    ></metadata
+  ></svg
+>
