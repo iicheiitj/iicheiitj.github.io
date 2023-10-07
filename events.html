@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-
-
      <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="aos-by-red.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
     <title>Events</title>
   </head>
@@ -16,7 +17,7 @@
 
 <!--Events code-->
 <section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 py-24 mx-auto" data-aos="fade-up">
       <div class="flex flex-wrap w-full mb-20">
         <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
           <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Upcoming Events:</h1>
@@ -34,7 +35,7 @@
             <p class="leading-relaxed text-base">On October 7, 2023, the annual industry day is being organised. This event will host many expert talks, student activities, poster presentation and panel discussions.</p>
           </div>
         </div>
-        <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="xl:w-1/4 md:w-1/2 p-4" >
           <div class="bg-gray-100 p-6 rounded-lg">
             <img class="h-40 rounded w-full object-cover object-center mb-6" src="assets/events/Chemesorption24.jpg" alt="content">
             
@@ -51,7 +52,7 @@
     </div>
   </section>
   <section class="text-gray-600 body-font">
-    <div class="container px-5 py-5 mx-auto">
+    <div class="container px-5 py-5 mx-auto" data-aos="fade-up">
       <div class="flex flex-wrap w-full mb-20">
         <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
           <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Past events:</h1>
@@ -114,5 +115,12 @@
     <script
       src="snippet.js"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+        once: true,
+      });
+    </script>
   </body>
 </html>

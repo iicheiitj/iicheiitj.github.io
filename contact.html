@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-
+    <link rel="stylesheet" href="aos-by-red.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
      <link rel="stylesheet" href="style.css">
    
     <title>Contact</title>
@@ -16,7 +17,7 @@
  <!--Contact code-->
 
  <section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap" data-aos="fade-up">
       <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3571.3024807668626!2d73.116075!3d26.478204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa9e0e0bb6d7a1c5d!2sDepartment%20of%20Chemical%20Engineering%2C%20IIT%20JODHPUR!5e0!3m2!1sen!2sin!4v1679190969709!5m2!1sen!2sin" width="460" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
@@ -100,5 +101,12 @@
     <script
       src="snippet.js"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+        once: true,
+      });
+    </script>
   </body>
 </html>
